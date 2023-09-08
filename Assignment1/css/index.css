@@ -1,0 +1,214 @@
+.bili-rainy {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 0 150px;
+    box-sizing: border-box;
+    font-size: 20px;
+    gap: 5px;
+}
+.bili-rainy .goodicon {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    color: #fff;
+}
+
+.tips {
+    padding: 0 30px;
+}
+
+.bili-nav {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 0 24px;
+    box-sizing: border-box;
+}
+
+.left-entry {
+    display: flex;
+}
+
+.left-entry .entry-title {
+    display: flex;
+    align-items: center;
+    height: 64px;
+    color: #fff;
+}
+.center-search-container {
+    flex: 1;
+    height: 40px;
+    padding: 0 48px 0 4px;
+    border-radius: 8px;
+    border: 3px solid #cdced1;
+    background-color: #f1f2f3;
+    display: flex;
+    align-items: center;
+    position: relative; 
+}
+
+.center-search-container .nav-search-content {
+    display: flex;
+    height: 20px;
+    width: 100%;
+    padding: 0 8px;
+}
+
+.nav-search-content .nav-search-input {
+    flex: 1;
+    background-color: transparent;
+    line-height: 20px;
+    overflow: hidden;
+    padding-right: 8px;
+}
+.center-search-container .nav-search-button {
+    position: absolute;
+    top: 4px;
+    right: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color .3s;
+}
+.center-search-container .nav-search-button:hover {
+    background-color: #e3e4e5;
+}
+
+.right-entry{
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.right-entry .right-entry-item{
+    min-width: 50px;
+    margin-right: 4px;
+}
+
+.bili-nav {
+    position: absolute;
+    /* top: 0;
+    z-index: 1000; */
+}
+.bili-banner {
+    position: relative;
+    height: 70px;
+    width: 100%;
+    overflow: hidden;
+}
+.bili-banner img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.bili-channel .right-channel-container {
+    width: 100%;
+    display: flex;
+    
+}
+
+.bili-channel .channel-items {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    width: 100%;
+    padding: 0 30px;
+}
+.channel-items .hours {
+    height: 26px;
+    line-height: 26px;
+    background-color: #cdced1;
+    border: 3px solid #cdced1;
+    border-radius: 6px;
+    text-align: center;
+    color: #61666d;
+}
+.channel-items .one {
+    height: 26px;
+    line-height: 26px;
+    background-color: #ffffff;
+    border: 3px solid #cdced1;
+    border-radius: 6px;
+    text-align: center;
+    color: #61666d;
+}
+.channel-items .two {
+    height: 26px;
+    line-height: 26px;
+    background-color: #ffffff;
+    border: 3px solid #cdced1;
+    border-radius: 6px;
+    text-align: center;
+    color: #61666d;
+}
+/* .bili-channel .channel-items a {
+    height: 26px;
+    line-height: 26px;
+    background-color: #cdced1;
+    border: 1px solid #f1f2f3;
+    border-radius: 6px;
+    text-align: center;
+    color: #61666d;
+} */
+
+.bili-weather {
+    width: 100%;
+    padding: 0 30px;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 0px;
+}
+
+.bili-weather .weather {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.bili-parameter {
+    width: 100%;
+    padding: 10px 30px;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+}
+
+.bili-parameter .parameter-items {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    border: 3px solid #cdced1;
+    border-radius: 6px;
+    text-align: center;
+    color: #61666d;
+    gap: 10px;
+}
+
+.source {
+    padding: 10px 30px;
+}
+
+.source a {
+    text-decoration-line: underline;
+    text-decoration-color: rgb(19, 54, 144);
+}

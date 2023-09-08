@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul, ol, li{
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+}
+
+body {
+    background-image: url(../img/background.jpg);
+    background-size: cover;
+    font-size: 14px;
+}
+
+input {
+    border: 0 none;
+    outline-style: none;
+}
