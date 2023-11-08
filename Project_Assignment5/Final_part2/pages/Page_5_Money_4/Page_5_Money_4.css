@@ -1,0 +1,111 @@
+.page {
+  background-color: #fafaf4;
+  width: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 100%;
+}
+.header {
+  padding: 0.88rem 0.63rem 1rem;
+  height: 2.94rem;
+}
+.space-x-66 > *:not(:first-child) {
+  margin-left: 4.13rem;
+}
+.font_1 {
+  font-size: 1rem;
+  font-family: Merriweather Sans;
+  color: #658361;
+}
+.text_3 {
+  line-height: 1.06rem;
+}
+.group {
+  padding-bottom: 31.06rem;
+  overflow-y: auto;
+}
+.space-y-27 > *:not(:first-child) {
+  margin-top: 1.69rem;
+}
+.text-wrapper {
+  padding: 0.63rem 0 0.25rem;
+  background-color: #c0d9bf;
+}
+.font_2 {
+  font-size: 0.88rem;
+  font-family: Merriweather Sans;
+  line-height: 0.72rem;
+  color: #658361;
+}
+.text {
+  text-transform: capitalize;
+}
+.text_2 {
+  line-height: 0.81rem;
+}
+.text_4 {
+  line-height: 1rem;
+}
+.group_2 {
+  padding: 0 0.56rem;
+}
+.space-x-8 > *:not(:first-child) {
+  margin-left: 0.5rem;
+}
+.group_3 {
+  width: 4.44rem;
+}
+.group_4 {
+  padding: 3.13rem 0 0.19rem;
+}
+.section_3 {
+  padding-top: 0.94rem;
+  background-image: url('https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/653acced5a7e3f031015c764/654433c1f9a7df0012213db5/16989693278614743577.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 3.25rem;
+}
+.space-y-10 > *:not(:first-child) {
+  margin-top: 0.63rem;
+}
+.section_4 {
+  border-radius: 50%;
+  height: 3.19rem;
+  border: solid 0.13rem #6c9772;
+}
+.section {
+  padding: 0.38rem 0;
+  background-image: url('https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/653acced5a7e3f031015c764/654433c1f9a7df0012213db5/16989693306794978168.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 4.44rem;
+}
+.pos {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+.section_2 {
+  border-radius: 50%;
+  width: 3.19rem;
+  height: 3.19rem;
+  border: solid 0.13rem #6c9772;
+}
+.section_5 {
+  padding: 0.56rem 0;
+  background-image: url('https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/653acced5a7e3f031015c764/654433c1f9a7df0012213db5/16989693278969488139.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 3.25rem;
+}
+.text_5 {
+  margin-top: 3.38rem;
+}
+.text_6 {
+  margin-top: 3rem;
+  line-height: 0.88rem;
+}
+.text_7 {
+  margin-top: 2.75rem;
+}

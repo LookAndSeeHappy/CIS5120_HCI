@@ -1,0 +1,125 @@
+.page {
+  background-color: #fafaf4;
+  width: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 100%;
+}
+.header {
+  padding: 0.5rem 0.69rem;
+  height: 2.56rem;
+}
+.image {
+  width: 1.44rem;
+  height: 1.44rem;
+}
+.font_1 {
+  font-size: 1rem;
+  font-family: Merriweather Sans;
+  line-height: 1.06rem;
+  color: #658361;
+}
+.group {
+  padding: 0.63rem 1rem 28.44rem 1.88rem;
+  overflow-y: auto;
+}
+.space-y-26 > *:not(:first-child) {
+  margin-top: 1.63rem;
+}
+.group_2 {
+  line-height: 1.06rem;
+}
+.font_2 {
+  font-size: 1rem;
+  font-family: Merriweather Sans;
+  line-height: 0.81rem;
+  color: #658361;
+}
+.text_4 {
+  font-weight: 700;
+}
+.text_3 {
+  color: #c0d9bf;
+}
+.group_3 {
+  padding: 0 0.38rem;
+}
+.space-y-4 > *:not(:first-child) {
+  margin-top: 0.25rem;
+}
+.font_3 {
+  font-size: 1.13rem;
+  font-family: Merriweather Sans;
+  font-weight: 700;
+  color: #658361;
+}
+.space-x-12 > *:not(:first-child) {
+  margin-left: 0.75rem;
+}
+.image_2 {
+  border-radius: 0.31rem;
+  width: 2.63rem;
+  height: 2.5rem;
+}
+.space-y-3 > *:not(:first-child) {
+  margin-top: 0.19rem;
+}
+.text_6 {
+  margin-left: 0.5rem;
+  line-height: 1.19rem;
+}
+.group_4 {
+  margin-top: -0.25rem;
+}
+.space-x-14 > *:not(:first-child) {
+  margin-left: 0.88rem;
+}
+.section {
+  padding-top: 0.94rem;
+  background-image: url('https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/653acced5a7e3f031015c764/654433c1f9a7df0012213db5/16989693278614743577.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 3.25rem;
+  height: 8.06rem;
+}
+.space-y-10 > *:not(:first-child) {
+  margin-top: 0.63rem;
+}
+.section_2 {
+  border-radius: 50%;
+  height: 3.19rem;
+  border: solid 0.13rem #6c9772;
+}
+.group_5 {
+  margin-top: 2rem;
+}
+.space-y-54 > *:not(:first-child) {
+  margin-top: 3.38rem;
+}
+.font_4 {
+  font-size: 0.88rem;
+  font-family: Merriweather Sans;
+  line-height: 0.72rem;
+  color: #658361;
+}
+.text {
+  text-transform: capitalize;
+}
+.text_5 {
+  line-height: 1.13rem;
+}
+.text_2 {
+  margin-right: 0.63rem;
+  line-height: 0.75rem;
+}
+.text_7 {
+  line-height: 0.88rem;
+}
+.section_3 {
+  padding: 0.56rem 0;
+  background-image: url('https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/653acced5a7e3f031015c764/654433c1f9a7df0012213db5/16989693278969488139.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 3.25rem;
+  height: 4.31rem;
+}

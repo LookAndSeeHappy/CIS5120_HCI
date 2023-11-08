@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>codefun</title>
+    <link rel="stylesheet" href="../../index.css" />
+    <link rel="stylesheet" href="./Page_1_Main_Page_Add_Event.css" />
+    <script type="text/javascript" src="./Page_1_Main_Page_Add_Event.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  </head>
+  <body>
+    <div class="flex-col page">
+      <div class="flex-row justify-between items-center header">
+        <img
+          class="image"
+          src="https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/653acced5a7e3f031015c764/654433c1f9a7df0012213db5/16989693206441418774.png"
+        />
+        <div class="flex-row items-center button space-x-4">
+          <img
+            class="image_2"
+            src="https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/653acced5a7e3f031015c764/654433c1f9a7df0012213db5/1d3d4409e5a4ac6ef7c001226d228ce8.png"
+          />
+          <span class="font_1 text text_2">Alice</span>
+        </div>
+      </div>
+      <div class="flex-col flex-auto group">
+        <div class="flex-col justify-start items-start">
+          <input class="text_3 text text_1" autofocus='"autofocus"' value="Enter your trip name" id="newTripName"/>
+        </div>
+        <div class="flex-col space-y-8_my">
+          <span class="self-start font_2 text">Destination</span>
+          <input
+            class="flex-col justify-start items-start text-wrapper view input_1"
+            placeholder="Please enter your destination"
+            id="destination"
+          />
+        </div>
+        <div class="flex-col group_3 space-y-8">
+          <span class="self-start font_4 text">date</span>
+          <div class="flex-row">
+            <input
+              class="flex-col justify-start items-start text-wrapper_2 button_2 input_1"
+              type="text"
+              placeholder="Start Date"
+              id="startDate"
+            />
+            <script>
+              // 获取文本输入框
+              var textDateInput = document.getElementById('startDate');
+              // 使用jQuery UI将日期选择器应用于文本输入框
+              $(function() {
+                  $("#startDate").datepicker();
+              });
+            </script>
+            <input class="flex-col justify-start items-start text-wrapper_3 button_2 input_2" placeholder="End Date" id="endDate"/>
+            <script>
+              // 获取文本输入框
+              var textDateInput = document.getElementById('endDate');
+              // 使用jQuery UI将日期选择器应用于文本输入框
+              $(function() {
+                  $("#endDate").datepicker();
+              });
+            </script>
+          </div>
+        </div>
+        <div class="flex-col group_4">
+          <span class="self-start font_2 text">Add Friends</span>
+          <div class="flex-row items-center group_5 space-x-5">
+            <img
+              class="image_4"
+              src="https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/653acced5a7e3f031015c764/654433c1f9a7df0012213db5/025e9e10a336b4ad3c57d5d84387e2dc.png"
+            />
+            <img
+              class="image_5"
+              src="https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/653acced5a7e3f031015c764/654433c1f9a7df0012213db5/16989693320630070266.png"
+            />
+          </div>
+          <span class="self-start font_2 text text_7">Details</span>
+          <div class="flex-col group_6">
+            <div class="flex-row justify-between items-center section">
+              <div class="flex-row items-center section_2 space-x-12">
+                <span class="text_8">Paragraph</span>
+                <img
+                  class="shrink-0 image_8"
+                  src="https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/653acced5a7e3f031015c764/654433c1f9a7df0012213db5/16989693332103478498.png"
+                />
+              </div>
+              <div class="flex-row items-center space-x-4">
+                <img
+                  class="image_7"
+                  src="https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/653acced5a7e3f031015c764/654433c1f9a7df0012213db5/16989693324309037601.png"
+                />
+                <img
+                  class="image_7"
+                  src="https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/653acced5a7e3f031015c764/654433c1f9a7df0012213db5/16989693326470985463.png"
+                />
+                <img
+                  class="image_7"
+                  src="https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/653acced5a7e3f031015c764/654433c1f9a7df0012213db5/16989693329626861244.png"
+                />
+                <img
+                  class="image_6"
+                  src="https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/653acced5a7e3f031015c764/654433c1f9a7df0012213db5/16989693329963859826.png"
+                />
+              </div>
+            </div>
+            <input
+              class="flex-col justify-start items-start text-wrapper_4 view_1 input_3"
+              placeholder="What’s your plan for this trip?"
+            />
+          </div>
+          <div class="self-start group_7">
+            <span class="font_4 text">cover</span>
+            <span class="font_2 text text_10">(optional)</span>
+          </div>
+          <div class="flex-col justify-start items-center image-wrapper view_2">
+            
+             <label for="explore">
+                            <input type="file" id="explore" style="display: none" ><img
+                            class="image_9"
+                            src="https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/653acced5a7e3f031015c764/654433c1f9a7df0012213db5/16989693335547570628.png"
+                          />
+                        </label>
+          </div>
+        </div>
+        <div class="flex-row justify-end group_8">
+          <div class="flex-col justify-start items-center button_3 text-wrapper_5" style="cursor: pointer;" onclick="onClick()">
+            <span class="font_5 text_11">Back</span>
+          </div>
+          <button class="flex-col justify-start items-center button_4 button" type="button" style="cursor: pointer;" onclick="saveText()">Confirm</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
