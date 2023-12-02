@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>codefun</title>
+    <link rel="stylesheet" href="../../index.css" />
+    <link rel="stylesheet" href="./Page_4_Map_A.css" />
+    <script type="text/javascript" src="./Page_4_Map_A.js"></script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+  </head>
+  <body>
+    <div class="flex-col page">
+      <div class="flex-row justify-between items-center header">
+        <img
+          class="image"
+          src="../../../Images/5a5284939b6c224d72cb4c5b51ebd35a.png"
+        />
+        <div class="flex-row items-center button">
+          <img
+            class="image_2"
+            src="../../../Images/1d3d4409e5a4ac6ef7c001226d228ce8.png"
+          />
+          <span class="text text_2 ml-3">Alice</span>
+        </div>
+      </div>
+      <div class="flex-col flex-1 group">
+        <div class="flex-col justify-start">
+          <div class="flex-row justify-between items-center group_3">
+            <span class="text text_3">Philly Zoo</span>
+            <span class="text text_4">15:30 ， Oct. 16th</span>
+          </div>
+        </div>
+        
+        <div id="map"></div>
+      <!-- 
+      The `defer` attribute causes the callback to execute after the full HTML
+      document has been parsed. For non-blocking uses, avoiding race conditions,
+      and consistent behavior across browsers, consider loading using Promises.
+      See https://developers.google.com/maps/documentation/javascript/load-maps-js-api
+      for more information.
+      -->
+      <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&v=weekly"
+      defer
+      ></script>
+
+        <div class="flex-row items-start section_5">
+          <div class="flex-col flex-1">
+            <span class="self-start text text_5">Philly Zoo</span>
+            <div class="mt-4 flex-col justify-start self-stretch relative group_1">
+              <div class="group_9">
+                <span class="font text_6">
+                  NOW IN ZOO
+                  <br />
+                </span>
+                <span class="font">16:45</span>
+                <span class="font_3 text_8">Leave</span>
+                <span class="font_4 text_9">
+                  Zoo
+                  <br />
+                </span>
+                <span class="font">17:00</span>
+                <span class="font_3 text_10">Dinner</span>
+                <span class="font_4 text_11">
+                  White Dog Cafe
+                  <br />
+                </span>
+                <span class="font">18:30</span>
+                <span class="font_3 text_12">Hotel</span>
+                <span class="font_4 text_13">
+                  Hilton University City
+                  <br />
+                  <br />
+                </span>
+              </div>
+              <img
+                class="image_8 pos_6"
+                src="../../../Images/a9c21927da72fb5608a8c385a4c500a4.png"
+              />
+            </div>
+          </div>
+          <div class="flex-col items-center shrink-0 group_8 ml-21">
+            <!-- <img
+              class="image_7"
+              src="../../../Images/c76261df739a3de331b427d9bb58a254.png"
+            /> -->
+            <label class="switch" >
+              <input type="checkbox" id="mySwitch" checked>
+              <span class="slider"></span>
+            </label>
+            <span class="font_2 text text_7">share location</span>
+            <img
+              class="image_9"
+              src="../../../Images/ffb6a2931fd3963488318d1271d3f72b.png"
+            />
+            <span class="font_2 text text_14">View Map</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="flex-row justify-between group_NAV">
+        <div class="flex-col justify-start items-center self-center image-wrapper">
+          <img
+            class="image_A"
+            src="../../../Images/c8f6b98b684e87e2d370354a77ae5322.png"
+            style="cursor: pointer;"
+            onclick="onClick_Schedule()"
+          />
+        </div>
+        <div class="flex-col justify-start items-center self-start image-wrapper">
+          <img
+            class="image_B"
+            src="../../../Images/cf78428373af3430871a262cac31e60d.png"
+            style="cursor: pointer;"
+            onclick="onClick_Friends()"
+          />
+        </div>
+        <div class="flex-col justify-start items-center self-center image-wrapper">
+          <img
+            class="image_C"
+            src="../../../Images/0c70c2896e3da09ca938aa48f8894011.png"
+            style="cursor: pointer;"
+            onclick="onClick_Home()"
+          />
+        </div>
+        <div class="flex-col justify-start items-center self-center image-wrapper">
+          <img
+            class="image_D"
+            src="../../../Images/d189f444126cb9a615a9f75e6abfa939.png"
+            style="cursor: pointer;"
+            onclick="onClick_Map()"
+          />
+        </div>
+        <div class="flex-col justify-start items-center self-center image-wrapper">
+          <img
+            class="image_E"
+            src="../../../Images/7b33877256bc9a5816d52ad383f278ac.png"
+            style="cursor: pointer;"
+            onclick="onClick_Money()"
+          />
+        </div>
+      </div>
+
+       
+    </div>
+  </body>
+</html>
+
+
+      

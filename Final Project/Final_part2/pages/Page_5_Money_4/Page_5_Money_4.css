@@ -1,0 +1,109 @@
+.ml-67 {
+  margin-left: 4.19rem;
+}
+.ml-17 {
+  margin-left: 1.06rem;
+}
+.ml-11 {
+  margin-left: 0.69rem;
+}
+.ml-19 {
+  margin-left: 1.19rem;
+}
+.page {
+  background-color: #fafaf4;
+  width: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 100%;
+}
+.header {
+  padding: 0.87rem 0.61rem 1rem;
+  height: 2.94rem;
+}
+.font {
+  font-size: 1rem;
+  font-family: Merriweather Sans;
+  color: #658361;
+}
+.text {
+  line-height: 0.82rem;
+  text-transform: capitalize;
+}
+.text_2 {
+  line-height: 1.06rem;
+}
+.group {
+  padding-bottom: 26.94rem;
+  overflow-y: auto;
+}
+.text-wrapper {
+  padding: 0.59rem 0 0.28rem;
+  background-color: #c0d9bf;
+}
+.font_2 {
+  font-size: 0.88rem;
+  font-family: Merriweather Sans;
+  line-height: 1.06rem;
+  color: #6c9772;
+}
+.text_3 {
+  color: #658361;
+  line-height: 1rem;
+}
+.list {
+  padding-left: 1.63rem;
+  padding-right: 1.19rem;
+}
+.list-item {
+  padding: 0 0.25rem;
+}
+.list-item:first-child {
+  margin-top: 0;
+}
+.image {
+  width: 6.06rem;
+  height: 3.56rem;
+}
+.group_2 {
+  line-height: 1.06rem;
+  height: 2.25rem;
+}
+.view {
+  margin-right: 3.39rem;
+}
+.font_3 {
+  font-size: 1rem;
+  font-family: Merriweather Sans;
+  line-height: 1.19rem;
+  font-weight: 300;
+  color: #000000;
+}
+.list-item_2 {
+  padding-left: 0.25rem;
+}
+.image_2 {
+  width: 5.94rem;
+  height: 3.31rem;
+}
+.image_3 {
+  width: 6.44rem;
+  height: 3.44rem;
+}
+.view_2 {
+  margin-right: 3.12rem;
+}
+.font_4 {
+  font-size: 0.88rem;
+  font-family: Merriweather Sans;
+  line-height: 1.06rem;
+  color: #de0000;
+}
+.image_4 {
+  width: 6.3rem;
+  height: 3.31rem;
+}
+.group_3 {
+  line-height: 1.06rem;
+  height: 2.26rem;
+}

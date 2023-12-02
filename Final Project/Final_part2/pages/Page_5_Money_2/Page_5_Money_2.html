@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>codefun</title>
+    <link rel="stylesheet" href="../../index.css" />
+    <link rel="stylesheet" href="./Page_5_Money_2.css" />
+    <script type="text/javascript" src="./Page_5_Money_2.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  </head>
+  <body>
+    <div class="flex-col page">
+      <div class="flex-row justify-between items-center header">
+        <img
+          class="image"
+          src="../../../Images/a711a259e143ba263653e21e7dbab756.png"
+        />
+        <span class="font text">Add an expense</span>
+        <button  style="cursor: pointer;" onclick="saveText()">
+          <span class="font text_2 text_3">save</span>
+        </button>
+        
+      </div>
+      <div class="flex-col flex-1 group">
+        <div class="flex-row items-center">
+          <div class="group_3">
+            <span class="font text_4">With</span>
+            <span class="font text_6">you</span>
+            <span class="font">and:</span>
+          </div>
+          <div class="flex-col justify-start relative group_2">
+            <div class="flex-col justify-start items-end text-wrapper"><span class="text_2 text_5">Alex</span></div>
+            <img
+              class="image_2 pos"
+              src="../../../Images/b753dfd65cb010132dec9aac085723c3.png"
+            />
+          </div>
+        </div>
+        <div class="flex-col group_4 mt-41">
+          <div class="flex-col">
+            <div class="flex-row items-center">
+              <img
+                class="image_3"
+                src="../../../Images/ebf345cf5a8579b0f79610d3154a0b01.png"
+              />
+              <input class="ml-20 flex-col justify-start text-wrapper_2 input" placeholder="Enter a description" id="Description"/>
+            </div>
+            <div class="flex-col mt-15">
+              <div class="flex-row items-center">
+                <img
+                  class="image_4"
+                  src="../../../Images/9e9f12719b5f70e84a91803514bc5550.png"
+                />
+                <input class="flex-col justify-start items-start text-wrapper_1 ml-19 input_1" placeholder="0.00" id="Money"/>
+              </div>
+              <div class="flex-row items-center mt-13">
+                <img
+                  class="image_5"
+                  src="../../../Images/6d06f23b20fb0f14dfc779a5ba523743.png"
+                />
+                <input
+                  class="flex-col justify-start items-start text-wrapper_3 ml-17 input_2"
+                  placeholder="Enter a date"
+                  id="Date"
+                />
+                <script>
+                  // 获取文本输入框
+                  var textDateInput = document.getElementById('Date');
+                  // 使用jQuery UI将日期选择器应用于文本输入框
+                  $(function() {
+                      $("#Date").datepicker();
+                  });
+                </script>
+              </div>
+            </div>
+          </div>
+          <div id='splitMode' class="flex-col justify-start items-center button text-wrapper_4 mt-35" onclick="saveTextForSplit()">
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

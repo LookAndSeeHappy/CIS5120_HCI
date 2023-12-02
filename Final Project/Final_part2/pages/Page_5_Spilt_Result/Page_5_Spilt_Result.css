@@ -1,0 +1,84 @@
+.ml-43_SplitResult {
+  margin-left: 2.69rem;
+}
+.page_SplitResult {
+  width: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 100%;
+}
+.header_SplitResult {
+  padding: 0.5rem 0.81rem 0.63rem 1.13rem;
+  background-color: #ffffff;
+  height: 3.65rem;
+}
+.font_SplitResult {
+  font-size: 1.5rem;
+  font-family: Merriweather Sans;
+  line-height: 1.46rem;
+  color: #000000;
+}
+.text_SplitResult {
+  margin-top: 0.88rem;
+  line-height: 1.59rem;
+  text-transform: capitalize;
+  text-shadow: 0 0.063rem #ffffff, 0 -0.063rem #ffffff, 0.063rem 0 #ffffff, -0.063rem 0 #ffffff;
+}
+.image_SplitResult {
+  width: 1.44rem;
+  height: 1.31rem;
+}
+.group_SplitResult {
+  padding-bottom: 5.75rem;
+  overflow-y: auto;
+}
+.section_SplitResult {
+  padding: 0 0.75rem 1.88rem;
+  background-color: #ffffff;
+  border-radius: 0 0 0.63rem 0.63rem;
+  height: 11.85rem;
+  border-left: solid 0.13rem #000000;
+  border-right: solid 0.13rem #000000;
+  border-top: solid 0.13rem #000000;
+  border-bottom: solid 0.13rem #000000;
+}
+.section_2_SplitResult {
+  padding: 1rem 0.38rem 1.63rem;
+  background-color: #fec12080;
+}
+.group_2_SplitResult {
+  height: 1.13rem;
+}
+.view_SplitResult {
+  margin-top: 0.25rem;
+}
+.font_2_SplitResult {
+  font-size: 1.13rem;
+  font-family: Merriweather Sans;
+  line-height: 0.92rem;
+  color: #000000;
+}
+.font_3_SplitResult {
+  font-size: 0.88rem;
+  font-family: Merriweather Sans;
+  line-height: 0.92rem;
+  font-weight: 300;
+  color: #000000;
+}
+.text_2_SplitResult {
+  text-transform: capitalize;
+}
+.text_3_SplitResult {
+  line-height: 0.93rem;
+}
+.section_3_SplitResult {
+  padding: 1rem 0.38rem;
+  background-color: #fec12080;
+}
+.text_4_SplitResult {
+  margin-left: 0.25rem;
+}
+.text_5_SplitResult {
+  margin-right: 0.63rem;
+  line-height: 0.72rem;
+}

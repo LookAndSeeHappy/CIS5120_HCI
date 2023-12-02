@@ -1,0 +1,43 @@
+.page {
+  padding: 2.25rem 3rem 0.75rem 3.25rem;
+  background-color: #ffffff;
+  border-radius: 0.63rem;
+  border-left: solid 0.063rem #658361;
+  border-right: solid 0.063rem #658361;
+  border-top: solid 0.063rem #658361;
+  border-bottom: solid 0.063rem #658361;
+  width: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 100%;
+}
+.font {
+  font-size: 1.25rem;
+  font-family: Merriweather Sans;
+  line-height: 1.33rem;
+  font-weight: 300;
+  color: #658361;
+}
+.group {
+  padding-left: 0.25rem;
+}
+.button {
+  padding: 0.5rem 0;
+  border-radius: 0.5rem;
+  width: 4.94rem;
+  height: 1.94rem;
+  border-left: solid 0.063rem #658361;
+  border-right: solid 0.063rem #658361;
+  border-top: solid 0.063rem #658361;
+  border-bottom: solid 0.063rem #658361;
+}
+.font_2 {
+  font-size: 1rem;
+  font-family: Merriweather Sans;
+  line-height: 0.75rem;
+  font-weight: 300;
+  color: #658361;
+}
+.text {
+  text-transform: capitalize;
+}

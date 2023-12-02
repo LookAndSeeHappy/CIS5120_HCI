@@ -1,0 +1,148 @@
+.mt-41 {
+  margin-top: 2.56rem;
+}
+.mt-15 {
+  margin-top: 0.94rem;
+}
+.ml-19 {
+  margin-left: 1.19rem;
+}
+.mt-13 {
+  margin-top: 0.81rem;
+}
+.ml-17 {
+  margin-left: 1.06rem;
+}
+.mt-35 {
+  margin-top: 2.19rem;
+}
+.page {
+  background-color: #fafaf4;
+  width: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 100%;
+}
+.header {
+  padding: 0.63rem 0.69rem 0.25rem;
+  height: 2.31rem;
+}
+.image {
+  width: 1.44rem;
+  height: 1.44rem;
+}
+.font {
+  font-size: 1rem;
+  font-family: Merriweather Sans;
+  line-height: 0.82rem;
+  color: #658361;
+}
+.text {
+  line-height: 1.06rem;
+}
+.text_2 {
+  text-transform: capitalize;
+}
+.text_3 {
+  margin-right: 0.56rem;
+  line-height: 0.76rem;
+}
+.group {
+  padding: 0 1.88rem 31.25rem 1.88rem;
+  overflow-y: auto;
+}
+.group_3 {
+  line-height: 0.82rem;
+  height: 1.06rem;
+}
+.text_4 {
+  line-height: 0.82rem;
+}
+.text_6 {
+  font-weight: 700;
+  line-height: 0.81rem;
+}
+.group_2 {
+  padding: 0.25rem 0 0.38rem;
+  width: 4.5rem;
+}
+.text-wrapper {
+  padding: 0.51rem 0 0.56rem;
+  background-color: #ffffff;
+  border-radius: 0.63rem;
+  width: 4.5rem;
+  border-left: solid 0.063rem #8c8c8c;
+  border-right: solid 0.063rem #8c8c8c;
+  border-top: solid 0.063rem #8c8c8c;
+  border-bottom: solid 0.063rem #8c8c8c;
+}
+.text_5 {
+  margin-right: 0.74rem;
+  color: #658361;
+  font-size: 0.75rem;
+  font-family: Merriweather Sans;
+  font-weight: 300;
+  line-height: 0.62rem;
+}
+.image_2 {
+  width: 1.69rem;
+  height: 2.44rem;
+}
+.pos {
+  position: absolute;
+  left: 0.13rem;
+  bottom: 0;
+}
+.group_4 {
+  padding-left: 1.12rem;
+  padding-right: 0.8rem;
+}
+.image_3 {
+  width: 2.75rem;
+  height: 2.75rem;
+}
+.text-wrapper_2 {
+  padding: 0.21rem 0 0.35rem;
+  height: 1.88rem;
+  border-bottom: solid 0.13rem #658361;
+}
+.image_4 {
+  width: 2.81rem;
+  height: 2.81rem;
+}
+.text-wrapper_1 {
+  padding: 0.28rem 0 0.61rem;
+  width: 11.5rem;
+  height: 1.88rem;
+  border-bottom: solid 0.13rem #658361;
+}
+.image_5 {
+  width: 2.94rem;
+  height: 2.94rem;
+}
+.text-wrapper_3 {
+  padding: 0.21rem 0 0.62rem;
+  width: 11.5rem;
+  height: 1.88rem;
+  border-bottom: solid 0.13rem #658361;
+}
+.button {
+  margin-left: 0.38rem;
+}
+.text-wrapper_4 {
+  padding: 0.68rem 0 0.32rem;
+  background-color: #ffffff;
+  border-radius: 0.63rem;
+  height: 2.19rem;
+  border-left: solid 0.063rem #000000;
+  border-right: solid 0.063rem #000000;
+  border-top: solid 0.063rem #000000;
+  border-bottom: solid 0.063rem #000000;
+}
+.text_10 {
+  color: #000000;
+  font-size: 1rem;
+  font-family: Merriweather Sans;
+  font-weight: 300;
+  line-height: 1.06rem;
+}

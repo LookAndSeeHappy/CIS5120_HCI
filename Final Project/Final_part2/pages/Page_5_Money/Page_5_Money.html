@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>codefun</title>
+    <link rel="stylesheet" href="../../index.css" />
+    <link rel="stylesheet" href="./Page_5_Money.css" />
+    <script type="text/javascript" src="./Page_5_Money.js"></script>
+  </head>
+  <body>
+    <div class="flex-col page">
+      <div class="flex-row justify-between items-center header">
+        <img
+          class="image"
+          src="../../../Images/5a5284939b6c224d72cb4c5b51ebd35a.png"
+        />
+        <div class="flex-row items-center button">
+          <img
+            class="image_2"
+            src="../../../Images/1d3d4409e5a4ac6ef7c001226d228ce8.png"
+          />
+          <span class="font text text_2 ml-3">Alice</span>
+        </div>
+      </div>
+      <div class="flex-col flex-1 group">
+        <div class="flex-row justify-between items-baseline group_2">
+          <span class="font_2 text text_3">Philly Zoo</span>
+          <span class="font_3 text text_4">Dec. 11th - Dec. 12th</span>
+        </div>
+        <div class="mt-12 flex-row group_1">
+          <div class="flex-col flex-1 section_2">
+            <span class="self-start font_4 text text_5">Your Budget</span>
+            <div class="mt-8 flex-row items-end self-stretch group_3">
+              <img
+                class="image_3"
+                src="../../../Images/b06860f6ccc20d7b6e8815e08faebefd.png"
+              />
+              <div class="ml-4 flex-col flex-1">
+                <span class="self-start font_2 text text_7">$ 600</span>
+                <div class="flex-col justify-start items-start self-stretch relative group_5">
+                  <div class="flex-col items-center section_3">
+                    <span class="font_7 text text_11">$150</span>
+                    <span class="mt-8 font_7 text text_12">25%</span>
+                  </div>
+                  <span class="font_8 text text_13 pos">Spent</span>
+                </div>
+                <span class="self-start font_8 text text_15">Reamin</span>
+              </div>
+            </div>
+          </div>
+          <div class="ml-8 flex-col shrink-0 group_4">
+            <div class="flex-col section">
+              <span class="self-start font_4 text text_6">Group Spending</span>
+              <div class="flex-col items-center self-stretch mt-19">
+                <span class="font_2 text text_8">$ 450</span>
+                <div class="mt-20 group_6">
+                  <span class="font_5 text text_9">6</span>
+                  <span class="font_6 text text_10">transations</span>
+                </div>
+              </div>
+            </div>
+            <dialog id="myDialog">
+              <div class="flex-col page_SplitResult">
+                <div class="flex-row justify-between items-start header_SplitResult">
+                  <span class="font_SplitResult text_SplitResult">Split Results</span>
+                  <button id="closeBtn" style="cursor: pointer;">
+                    <img
+                    class="image_SplitResult"
+                    src="../../../Images/b58191e1a8863790b5586be31fc95aa7.png"
+                  />
+                  </button>
+                </div>
+                <div class="flex-col justify-start flex-1 group_SplitResult">  
+                  <div class="flex-col section_SplitResult">
+
+                    <!-- <div class="flex-row relative section_2_SplitResult">
+                      <div class="self-start group_2_SplitResult view_SplitResult">
+                        <span class="font_2_SplitResult text_2_SplitResult">You</span>
+                        <span class="font_3_SplitResult text_2_SplitResult text_3_SplitResult">Should Pay:</span>
+                      </div>
+                      <span class="ml-34 self-center font_SplitResult text_2_SplitResult">$ 0</span>
+                    </div> -->
+                    <div class="mt-26 flex-col section_3_SplitResult">
+                      <div class="flex-row items-center self-stretch">
+                        <!-- <div class="group_2_SplitResult">
+                          <span class="font_2_SplitResult text_2_SplitResult">Your payment:</span> 
+                          <span class="font_3_SplitResult text_2_SplitResult text_3_SplitResult text_4_SplitResult"></span>
+                        </div> -->
+                        <span class="font_SplitResult text_2_SplitResult ml-43_SplitResult">$ 50</span>
+                      </div>
+                      <span class="mt-4 self-end font_3_SplitResult text_2_SplitResult text_5_SplitResult">To Alex</span>
+                    </div>
+
+                    <div class="mt-26 flex-col section_3_SplitResult">
+                      <div class="flex-row items-center self-stretch">
+                        <!-- <div class="group_2_SplitResult">
+                         <span class="font_2_SplitResult text_2_SplitResult">Alex payment:</span> 
+                         <span class="font_3_SplitResult text_2_SplitResult text_3_SplitResult text_4_SplitResult"></span>
+                        </div> -->
+                        <span class="font_SplitResult text_2_SplitResult ml-43_SplitResult">$ 50</span>
+                      </div>
+                      <span class="mt-4 self-end font_3_SplitResult text_2_SplitResult text_5_SplitResult">To You</span>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </dialog>
+            <button id="openBtn" style="cursor: pointer;" class="mt-8 flex-col justify-start items-center button_2 text-wrapper">
+              <span class="font_5 text text_14">Split Results</span>
+            </button>
+          </div>
+        </div>
+        <div class="mt-12 flex-col section_4">
+          <div class="flex-col">
+            <div class="flex-row justify-between items-start group_19">
+              <div id="container_all" class="flex-col items-start group_7">
+                <span class="font_6 text text_16">Recent Transactions</span>
+                <span class="font_3 text_17 mt-15"></span>
+              </div>
+              <img
+                class="image_4"
+                src="../../../Images/dc0bca3203e2b6eefac638dc085df9a5.png"
+                onclick="onClick()"
+                style="cursor: pointer;"
+              />
+            </div>
+            <div class="flex-row items-center group_8">
+              <span class="font_3 text text_18">Today</span>
+              <span class="ml-10 font_3 text text_19">Dec. 12th</span>
+            </div>
+            <div class="flex-col group_11 view">
+
+              <div class="flex-row justify-between items-center">
+                <div class="flex-row items-center self-stretch">
+                  <img
+                    class="shrink-0 image_5"
+                    src="../../../Images/9d7c4f973991006f30b533f8d27bbc0e.png"
+                  />
+                  <div class="ml-18 group_10 view_2">
+                    <span class="font text">
+                      Dinner
+                      <br />
+                    </span>
+                    <span class="font_11 text">You paid $15</span>
+                  </div>
+                </div>
+                <div class="flex-col items-center group_20">
+                  <span class="font_9">you lent</span>
+                  <span class="font_10 text">$15</span>
+                </div>
+              </div>
+
+              <!-- <div class="mt-8 flex-row justify-between">
+                <div class="flex-row items-center">
+                  <img
+                    class="shrink-0 image_5"
+                    src="../../../Images/9d7c4f973991006f30b533f8d27bbc0e.png"
+                  />
+                  <div class="group_13 ml-17">
+                    <span class="font text">
+                      Lunch
+                      <br />
+                    </span>
+                    <span class="font_11 text">You paid $15</span>
+                  </div>
+                </div>
+                <div class="flex-col items-start group_12">
+                  <span class="font_9">you lent</span>
+                  <span class="mt-2 font_10 text text_20">$15</span>
+                </div>
+              </div> -->
+              <div class="mt-8 flex-row justify-between items-center">
+                <div class="flex-row items-center">
+                  <img
+                    class="shrink-0 image_6"
+                    src="../../../Images/b594f721c9e9ed3f719cb5869e2e2f27.png"
+                  />
+                  <div class="ml-20 group_14">
+                    <span class="font text">
+                      Uber
+                      <br />
+                    </span>
+                    <span class="font_11 text">Alex paid $70</span>
+                  </div>
+                </div>
+                <div class="flex-col items-start group_15">
+                  <span class="font_12 text_21">you borrowed</span>
+                  <span class="font_13 text text_22">$35</span>
+                </div>
+              </div>
+              <div id="container">
+                <!-- 这里将动态生成重复的 HTML 代码块 -->
+              </div>
+            </div>
+          </div>
+          <div class="flex-col mt-27">
+            <div class="flex-row items-center">
+              <span class="font_3 text text_23">Yesterday</span>
+              <span class="ml-6 font_3 text text_24">Dec. 11th</span>
+            </div>
+            <div class="mt-8 flex-col group_11">
+              <div class="flex-row justify-between items-center">
+                <div class="flex-row items-center self-stretch">
+                  <img
+                    class="shrink-0 image_5"
+                    src="../../../Images/9d7c4f973991006f30b533f8d27bbc0e.png"
+                  />
+                  <div class="ml-18 group_10 view_3">
+                    <span class="font text">
+                      Dinner
+                      <br />
+                    </span>
+                    <span class="font_11 text">You paid $20</span>
+                  </div>
+                </div>
+                <div class="flex-col items-center group_20">
+                  <span class="font_9">you lent</span>
+                  <span class="font_10 text">$20</span>
+                </div>
+              </div>
+              
+              <!-- <div class="mt-8 flex-row justify-between items-center">
+                <div class="flex-row items-center">
+                  <img
+                    class="shrink-0 image_6"
+                    src="../../../Images/b594f721c9e9ed3f719cb5869e2e2f27.png"
+                  />
+                  <div class="group_14 ml-19">
+                    <span class="font text">
+                      Uber
+                      <br />
+                    </span>
+                    <span class="font_11 text">Amy paid $35</span>
+                  </div>
+                </div>
+                <div class="flex-col items-start group_15">
+                  <span class="font_12 text_21">you borrow</span>
+                  <span class="font_13 text text_22">$25</span>
+                </div>
+              </div> -->
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="flex-row justify-between group_NAV">
+        <div class="flex-col justify-start items-center self-center image-wrapper">
+          <img
+            class="image_A"
+            src="../../../Images/c8f6b98b684e87e2d370354a77ae5322.png"
+            style="cursor: pointer;"
+            onclick="onClick_Schedule()"
+          />
+        </div>
+        <div class="flex-col justify-start items-center self-start image-wrapper">
+          <img
+            class="image_B"
+            src="../../../Images/cf78428373af3430871a262cac31e60d.png"
+            style="cursor: pointer;"
+            onclick="onClick_Friends()"
+          />
+        </div>
+        <div class="flex-col justify-start items-center self-center image-wrapper">
+          <img
+            class="image_C"
+            src="../../../Images/0c70c2896e3da09ca938aa48f8894011.png"
+            style="cursor: pointer;"
+            onclick="onClick_Home()"
+          />
+        </div>
+        <div class="flex-col justify-start items-center self-center image-wrapper">
+          <img
+            class="image_D"
+            src="../../../Images/60a6afb3db21931ad126af86828aba2f.png"
+            style="cursor: pointer;"
+            onclick="onClick_Map()"
+          />
+        </div>
+        <div class="flex-col justify-start items-center self-center image-wrapper">
+          <img
+            class="image_E"
+            src="../../../Images/2cff1ba3d9f85539563b016e7357cbbb.png"
+            style="cursor: pointer;"
+            onclick="onClick_Money()"
+          />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
